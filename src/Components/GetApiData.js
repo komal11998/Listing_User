@@ -33,7 +33,7 @@ const GetApiData = () => {
         <>
           <TableHead>
             <TableRow>
-              <TableCell align="center" colSpan={4}>
+              <TableCell align="center" colSpan={8}>
                 API Data
               </TableCell>
             </TableRow>
@@ -45,6 +45,10 @@ const GetApiData = () => {
                 <TableCell>{value.name}</TableCell>
                 <TableCell>{value.username}</TableCell>
                 <TableCell>{value.email}</TableCell>
+                <TableCell>{value.address.street}</TableCell>
+                <TableCell>{value.phone}</TableCell>
+                <TableCell>{value.website}</TableCell>
+                <TableCell>{value.company.name}</TableCell>
               </TableRow>
             ))}
           </TableBody>

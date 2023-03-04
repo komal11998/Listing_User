@@ -187,6 +187,10 @@ function App() {
                   <TableCell>Name</TableCell>
                   <TableCell>Username</TableCell>
                   <TableCell>Email</TableCell>
+                  <TableCell>Address</TableCell>
+                  <TableCell>Phone</TableCell>
+                  <TableCell>Website</TableCell>
+                  <TableCell>Company</TableCell>
                 </TableRow>
               </TableHead>
               {inputs.length > 0 && (
