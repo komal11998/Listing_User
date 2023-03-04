@@ -197,7 +197,7 @@ function App() {
                 <>
                   <TableHead>
                     <TableRow>
-                      <TableCell align="center" colSpan={4}>
+                      <TableCell align="center" colSpan={8}>
                         Input Data
                       </TableCell>
                     </TableRow>
